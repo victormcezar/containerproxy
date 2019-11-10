@@ -239,9 +239,23 @@
 			<artifactId>aws-java-sdk-s3</artifactId>
 			<version>1.11.563</version>
 		</dependency>
-
+		
+		<!-- Amazon ECS Fargate -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ecs</artifactId>
+			<version>1.11.563</version>
+		</dependency>
+		
+		<!-- Amazon EC2 Fargate -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ec2</artifactId>
+			<version>1.11.563</version>
+		</dependency>
+		
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
